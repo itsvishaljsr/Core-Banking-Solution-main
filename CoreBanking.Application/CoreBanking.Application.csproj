@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="EPPlus" Version="8.2.1" />
+    <PackageReference Include="FluentEmail.Core" Version="3.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageReference Include="MimeKit" Version="4.14.0" />
+	<PackageReference Include="MediatR" Version="13.1.0" />
+    <PackageReference Include="Octokit" Version="14.0.0" />
+    <PackageReference Include="Refit" Version="8.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreBanking.Domain\CoreBanking.Domain.csproj" />
+    <ProjectReference Include="..\CoreBanking.DTOs\CoreBanking.DTOs.csproj" />
+  </ItemGroup>
+
+</Project>
